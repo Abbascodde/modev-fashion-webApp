@@ -348,7 +348,7 @@ input {
 }
 
 .see-more {
-  background: #8b4513;
+  background: #02dec4;
   align-items: center;
   justify-content: flex-start;
   flex-shrink: 0;
@@ -440,15 +440,7 @@ input {
   position: relative;
 }
 
-.frame-1 {
-  background: #8b4513;
-  border-radius: 32px;
-  flex-shrink: 0;
-  width: 54px;
-  height: 54px;
-  position: relative;
-  overflow: hidden;
-}
+/*   */
 
 .heroicons {
   width: 24px;
@@ -519,8 +511,8 @@ input {
   position: relative;
 }
 
-.icon-style {
-  background: #8b4513;
+.frame-1 {
+  background: #07ab8f;
   border-radius: 32px;
   flex-shrink: 0;
   width: 54px;
@@ -597,12 +589,12 @@ input {
   position: relative;
 }
 
-.frame-1367 {
-  background: #8b4513;
+.icon-style {
+  background: #07ab8f;
   border-radius: 32px;
   flex-shrink: 0;
-  width: 64px;
-  height: 64px;
+  width: 54px;
+  height: 54px;
   position: relative;
   overflow: hidden;
 }
@@ -676,11 +668,11 @@ input {
 } */
 
 .delivery-2 {
-  background: #8b4513;
+  background: #07ab8f;
   border-radius: 32px;
   flex-shrink: 0;
-  width: 64px;
-  height: 64px;
+  width: 54px;
+  height: 54px;
   position: relative;
   overflow: hidden;
 }
@@ -744,7 +736,7 @@ input {
 }
 
 .fast-and-good {
-  background: #8b4513;
+  background: #07ab8f;
   border-radius: 32px;
   flex-shrink: 0;
   width: 48px;
@@ -793,4 +785,56 @@ input {
   font-weight: 400;
   position: relative;
   align-self: stretch;
+}
+
+
+/* footer */
+
+.footer-container {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  /* font-size: 40px; */
+  background-color: #07ab8f;
+  color: white;
+}
+
+.modev{
+  font-size: 45px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.contact-list {
+  line-height: 40px;
+  font-size: 20px;
+   
+}
+
+ a {
+  text-decoration: none;
+  color: #e8dfec;
+}
+
+.h3-menu {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.get-help {
+  line-height: 40px;
+  font-size: 20px;
+}
+
+.h3-help {
+  font-size: 30px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.menu-list {
+  line-height: 40px;
 }
